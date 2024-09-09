@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|c:\\users\\treyb\\source\\repos\\lucky-cli\\testingshit\\commandline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|solutionrelative:commandline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|c:\\users\\treyb\\source\\repos\\lucky-cli\\testingshit\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|solutionrelative:command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|c:\\users\\treyb\\source\\repos\\lucky-cli\\testingshit\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|solutionrelative:filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|c:\\users\\treyb\\source\\repos\\lucky-cli\\testingshit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBD5321-4F1B-44AE-841F-5C78EA8F2658}|TestingShit.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandLine.cs",
+              "DocumentMoniker": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\CommandLine.cs",
+              "RelativeDocumentMoniker": "CommandLine.cs",
+              "ToolTip": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\CommandLine.cs",
+              "RelativeToolTip": "CommandLine.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:41:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\FileHandler.cs",
+              "RelativeDocumentMoniker": "FileHandler.cs",
+              "ToolTip": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\FileHandler.cs",
+              "RelativeToolTip": "FileHandler.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswFYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T17:36:22.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\Command.cs",
+              "RelativeDocumentMoniker": "Command.cs",
+              "ToolTip": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\Command.cs",
+              "RelativeToolTip": "Command.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T17:32:43.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T17:27:11.192Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
