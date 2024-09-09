@@ -2,39 +2,9 @@
 
 public class CommandLine
 {
-    private string _commandName;
-    private List<string> _args = new();
-    private static string? username;
-
-    public CommandLine(string commandName, List<string> args)
-    {
-        _commandName = commandName;
-        _args = args;
-
-        CheckValidity();
-    }
-
-    void CheckValidity()
-    {
-        if (!Command.IsValidCommand(_commandName))
-            Error("Invalid command");
-
-        Command? command = Command.GetCommandInfo(_commandName);
-
-        if (command == null)
-        {
-            Error("Command not found");
-        }
-
-        if (_args.Count != command?.NumArgs)
-        {
-            Error("Invalid number of arguments");
-        }
-    }
-
     public static void Error(string message)
     {
-        Console.ForegroundColor = ConsoleColor.Red;
+        Console.ForegroundColor = ConsoleColor.DarkRed;
         Console.Write($"Error: ");
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine(message);
@@ -47,26 +17,33 @@ public class CommandLine
         Console.WriteLine("----------------------------------");
     }
 
-    public static void SetUsername()
+    public static void DisplayColoredText(string text, ConsoleColor color)
     {
+        Console.ForegroundColor = color;
+        Console.Write(text);
+
+        //White is the default color for console text
         Console.ForegroundColor = ConsoleColor.White;
-        Console.Write("Username: ");
-
-        string? _username = Console.ReadLine();
-
-        if (_username != null)
-        {
-            username = _username;
-            Console.Clear();
-        }
-        else
-        {
-            Error("Username cannot be null");
-        }
     }
 
-    public static string GetUsername()
+    public static string[]? GetUserCommand()
     {
-        return username!;
+        //Cuts off the C:\Users part of the directory name and displays it to the console
+        string[] directoryText = Directory.GetCurrentDirectory().Split(@"\")[2..];
+        DisplayColoredText($@"(@{string.Join(@"\", directoryText)})-[~]: ", ConsoleColor.DarkCyan);
+
+        return Console.ReadLine()?.Split(" ");
+    }
+
+    public static void Clear()
+    {
+        Console.Clear();
+        DisplayCommandLineText();
+    }
+
+    public static void Exit()
+    {
+        DisplayColoredText("Exiting...", ConsoleColor.DarkGreen);
+        Environment.Exit(0);
     }
 }

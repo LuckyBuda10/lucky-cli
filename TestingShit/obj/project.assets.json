@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\17703\\.nuget\\packages\\": {}
+    "C:\\Users\\treyb\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\17703\\Desktop\\C# Projects\\I Made\\TestingShit\\TestingShit.csproj",
+      "projectUniqueName": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\TestingShit.csproj",
       "projectName": "TestingShit",
-      "projectPath": "C:\\Users\\17703\\Desktop\\C# Projects\\I Made\\TestingShit\\TestingShit.csproj",
-      "packagesPath": "C:\\Users\\17703\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\17703\\Desktop\\C# Projects\\I Made\\TestingShit\\obj\\",
+      "projectPath": "C:\\Users\\treyb\\source\\repos\\lucky-cli\\TestingShit\\TestingShit.csproj",
+      "packagesPath": "C:\\Users\\treyb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\treyb\\Source\\Repos\\lucky-cli\\TestingShit\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\17703\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\treyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +45,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

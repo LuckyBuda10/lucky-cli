@@ -2,62 +2,27 @@
 {
     public static void Main(string[] args)
     {
-        //Can change the valid commands inside that method
+        //Can set valid commands inside this method
         Command.SetValidCommands();
 
-        CommandLine.SetUsername();
+        //Set up the terminal in user directory
         CommandLine.DisplayCommandLineText();
-        FileHandler.SetStartingDirectory(@"C:\Users");
+        FileHandler.SetDirectory(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile));
 
         //Main loop
         while (true)
         {
-            string[]? userCommand = GetUserCommand();
+            string[]? userCommand = CommandLine.GetUserCommand();
 
-            if (CheckInvalidCommand(userCommand!))
+            //Reprompt the user if they put an invalid command
+            if (Command.CheckInvalidCommand(userCommand!))
                 continue;
 
+            //It won't be null, is checked in above function
             string commandName = userCommand![0];
-            Command command = Command.GetCommandInfo(commandName)!; //it won't be null, it's checked above
+            Command command = Command.GetCommandInfo(commandName)!;
 
             command.Run(userCommand.ToList());
         }
-    }
-
-    private static bool CheckInvalidCommand(string[] userCommand)
-    {
-        if (userCommand == null)
-        {
-            CommandLine.Error("Command Cannot be Empty");
-            return true;
-        }
-        else if (userCommand.Length == 0)
-        {
-            CommandLine.Error("Command Length Cannot be Zero");
-            return true;
-        }
-
-        string commandName = userCommand[0];
-
-        if (!Command.IsValidCommand(commandName))
-        {
-            CommandLine.Error("Invalid Command, Use `help`");
-            return true;
-        }
-
-        return false;
-    }
-
-    private static string[]? GetUserCommand()
-    {
-        Console.ForegroundColor = ConsoleColor.DarkCyan;
-
-        //Cuts off the C:\Users part of the directory name and displays it to the console
-        string[] directoryText = Directory.GetCurrentDirectory().Split(@"\")[2..];
-        Console.Write($@"(@{CommandLine.GetUsername()}\{string.Join(@"\", directoryText)})-[~]: ");
-
-        Console.ForegroundColor = ConsoleColor.White;
-
-        return Console.ReadLine()?.Split(" ");
     }
 }
