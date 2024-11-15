@@ -1,0 +1,30 @@
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\bin\Debug\net7.0\TestingShit.exe
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\bin\Debug\net7.0\TestingShit.deps.json
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\bin\Debug\net7.0\TestingShit.runtimeconfig.json
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\bin\Debug\net7.0\TestingShit.dll
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\bin\Debug\net7.0\TestingShit.pdb
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.csproj.AssemblyReference.cache
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.AssemblyInfoInputs.cache
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.AssemblyInfo.cs
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.csproj.CoreCompileInputs.cache
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.dll
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\refint\TestingShit.dll
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.pdb
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\TestingShit.genruntimeconfig.cache
+C:\Users\17703\Desktop\C# Projects\I Made\TestingShit\obj\Debug\net7.0\ref\TestingShit.dll
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\bin\Debug\net7.0\TestingShit.exe
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\bin\Debug\net7.0\TestingShit.deps.json
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\bin\Debug\net7.0\TestingShit.runtimeconfig.json
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\bin\Debug\net7.0\TestingShit.dll
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\bin\Debug\net7.0\TestingShit.pdb
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.AssemblyInfoInputs.cache
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.AssemblyInfo.cs
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.csproj.CoreCompileInputs.cache
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.sourcelink.json
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.dll
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\refint\TestingShit.dll
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.pdb
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\TestingShit.genruntimeconfig.cache
+C:\Users\treyb\Source\Repos\lucky-cli\TestingShit\obj\Debug\net7.0\ref\TestingShit.dll

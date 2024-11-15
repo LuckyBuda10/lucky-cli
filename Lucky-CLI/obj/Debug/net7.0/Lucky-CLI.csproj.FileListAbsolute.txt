@@ -1,0 +1,15 @@
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\bin\Debug\net7.0\Lucky-CLI.exe
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\bin\Debug\net7.0\Lucky-CLI.deps.json
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\bin\Debug\net7.0\Lucky-CLI.runtimeconfig.json
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\bin\Debug\net7.0\Lucky-CLI.dll
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\bin\Debug\net7.0\Lucky-CLI.pdb
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.AssemblyInfoInputs.cache
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.AssemblyInfo.cs
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.csproj.CoreCompileInputs.cache
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.sourcelink.json
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.dll
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\refint\Lucky-CLI.dll
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.pdb
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\Lucky-CLI.genruntimeconfig.cache
+C:\Users\treyb\source\repos\lucky-cli\Lucky-CLI\obj\Debug\net7.0\ref\Lucky-CLI.dll
