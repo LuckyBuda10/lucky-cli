@@ -1,3 +1,8 @@
-Lucky CLI is a console application used for File Management.
+# Lucky CLI
+Command Line Interface made to mimic the basic file I/O found within the default Windows shell
 
-Use "help" to see the full list of commands
+# Usage
+- Change directory
+- Create files
+- Delete files
+- Open files
